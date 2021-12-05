@@ -1,0 +1,419 @@
+/* カーソル設定 */
+/*body {
+  cursor: url(img/kunsei_cheese.png),auto;
+} 
+
+/* ヘッダー */
+
+.header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.header_title{
+  display: flex;
+  width: 50%;
+  justify-content: space-between;
+}
+
+.header_title li a {
+  color: black;
+  text-decoration: none;
+  font-size: 21px;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+.header_title li a:hover{
+  opacity: 0.1;
+  color: blue;
+  padding: 25px;
+  font-size: 30px;
+}
+
+
+/* ボックス */
+.box{
+  background-image: url("../img/mainbg.png");
+  height:500px;
+  width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 60px;
+}
+
+h2.box_title{
+  color:white;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 10px;
+  padding-top: 170px;
+}
+
+.box_text{
+  font-size: 30px;
+  text-align: center;
+  color: white;
+  margin-bottom: 170px;
+}
+
+/* アバウト */
+h3.about_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px;
+  color: orange;
+}
+
+p.about_sub{
+  text-align: center;
+  font-size: 18px;
+  margin: 50px;
+  color: gray;
+}
+
+.about_text{
+  text-align: center;
+  font-size: 16px;
+  margin: 40px;
+  line-height: 2;
+  color: gray;
+}
+
+.about_img img{
+ width: 100%;
+}
+
+.about_img {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* コース */
+h3.course_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+p.course_text{
+  text-align: center;
+  font-size: 16px;
+  margin: 60px;
+  line-height: 2;
+  color: gray;
+}
+
+.course_box{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+}
+
+.course_box_2{
+  margin: 0 auto;
+  width: 1200px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.course_img{
+  width: 50%;
+}
+
+.course_img img{
+  width: 100%;
+}
+
+.textbox{
+  width: 50%;
+  padding: 90px 200px 0 40px;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+h4.textbox_title{
+  font-size: 24px;
+  margin: 10px 10px;
+  font-weight: bold;
+}
+
+p.textbox_text{
+  font-size: 16px;
+  margin: 10px 10px;
+  line-height: 1.7;
+  color: gray;
+}
+
+
+
+/* ニュース */
+h3.news_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px;
+  color: orange;
+}
+
+p.news_sub{
+  text-align: center;
+  font-size: 18px;
+  margin: 50px;
+  color: gray;
+}
+
+.news_box_cover{
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.news_img{
+  width: 300px;
+  justify-content: center;
+  margin: 10 auto;
+}
+
+.news_img img{
+  width: 95%;
+}
+
+.newsbox_text{
+  width: 300px;
+  justify-content: left;
+  margin: 0 auto;
+  padding: 20px 20px 20px 10px;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+.news_box a {
+  color: black;
+  text-decoration: none;
+  font-size: 16px;
+  transition: all 0.5s;
+}
+
+.news_box a:hover{
+  opacity: 0.1;
+  color: blue;
+  padding: 25px;
+  font-size: 20px;
+}
+
+.more_form {
+  padding: 10px;
+  text-align : center
+}
+
+.more_button{
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #ffd61a;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ffd61a;    /* 枠の指定 */
+}
+
+.more_button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffd61a;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+/* アクセス */
+.access{
+  width: 1200px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  background: #fafafa;
+}
+
+h3.access_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px;
+}
+
+p.access_sub{
+  text-align: center;
+  font-size: 18px;
+  margin: 50px;
+}
+
+.mapbox iframe{
+  width: 100%;
+ }
+
+.mapbox{
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.infobox{
+ display: flex;
+ justify-content: center;
+ padding: 10px;
+ width: 600px;
+ margin: 0 auto;
+}
+
+.infobox_title{
+  width: 25%;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+
+.infobox_text{
+  width: 75%;
+  text-align: left;
+  font-size: 18px;
+  margin: 10px;
+}
+
+h3.contact_title{
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin: 30px;
+  /* color: orange; */
+}
+
+.contact_sub{
+  text-align: center;
+  font-size: 18px;
+  margin: 50px;
+  color: gray;
+}
+
+.contact_text{
+  text-align: center;
+  font-size: 16px;
+  margin: 40px;
+  line-height: 2;
+  color: gray;
+}
+
+
+/* フォーム */
+
+.contact_form {
+display: flex;
+flex-wrap: wrap;
+width: 1200px;
+margin: 0 auto;
+justify-content: center;
+}
+
+input[type="text"]{
+  width: 328px;
+  height: 36px;
+}
+
+input[type="email"]{
+  width: 328px;
+  height: 36px;
+}
+
+.chance_box{
+  width: 0;
+  margin: 0;
+  box-sizing: border-box;
+  color: red;
+}
+
+.chance_box select{
+  width: 328px;
+  height: 36px;
+}
+
+th{
+  text-align: left;
+  width: 240px;
+  padding:10px;
+  border-top: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+}
+
+td{
+  width: 400px;
+  padding: 10px;
+  border-top: solid 1px #bfbfbf;
+  border-left: solid 1px #bfbfbf;
+  border-bottom: solid 1px #bfbfbf;
+}
+
+label {
+  white-space: nowrap;
+}
+
+.contact_form div{
+  padding: 10px;
+  text-align : center
+}
+
+input[type="submit"]{
+  width: 200px;
+  height: 36px;
+  color:white;
+}
+
+.submit_button{
+  display       : inline-block;
+  border-radius : 5%;          /* 角丸       */
+  font-size     : 18pt;        /* 文字サイズ */
+  text-align    : center;      /* 文字位置   */
+  cursor        : pointer;     /* カーソル   */
+  padding       : 12px 12px;   /* 余白       */
+  background    : #ffd61a;     /* 背景色     */
+  color         : #ffffff;     /* 文字色     */
+  line-height   : 1em;         /* 1行の高さ  */
+  transition    : .3s;         /* なめらか変化 */
+  box-shadow    : 6px 6px 3px #666666;  /* 影の設定 */
+  border        : 2px solid #ffd61a;    /* 枠の指定 */
+}
+
+.submit_button:hover {
+  box-shadow    : none;        /* カーソル時の影消去 */
+  color         : #ffd61a;     /* 背景色     */
+  background    : #ffffff;     /* 文字色     */
+}
+
+/* フッター */
+.footer{
+  width: 1200px;
+  margin: 0 auto;
+  background: #707070;
+}
+
+.footer_text{
+  text-align: center;
+  padding: 30px;
+  font-size: 16px;
+  color: white;
+}
+
