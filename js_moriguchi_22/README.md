@@ -13,7 +13,7 @@
 ・参考
 <br> 【RPG編】JavaScriptゲームプログラミング初級
 <br> http://tk2-217-18218.vs.sakura.ne.jp/prog/rpg/
-<br> ほとんどの機能はここのyoutubeを見ながら参照・作成した。
+<br> ほとんどの機能はここのyoutubeを参照しながら作成した。
 <br> 随時理解しながら進め、できるところは手を加えていった。
 
 <br> ・素材
